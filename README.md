@@ -44,10 +44,14 @@ It contains the dataset with the following columns :
 ##**Environment Setup**
 
 The following project requires the latest version of the Python and requires the following libraries :
-###A. pandas
-###B. numpy
-###C. scikit-learn
-###D. joblib
+
+A. pandas
+
+B. numpy
+
+C. scikit-learn
+
+D. joblib
 
 ##**How to Run the Project**
 ###A. Train the Model
