@@ -9,23 +9,23 @@ Timing analysis is a crucial step in IP/SoC design and is often slow. If a desig
 **Project Blueprint**
 
 A. dataset.csv : It contains the dataset with the following columns :
-  a. Module Name
-  b. Signal Name
-  c. Gates
-  d. Fan-In
-  e. Fan-Out
-  f. Depth
+a. Module Name
+b. Signal Name
+c. Gates
+d. Fan-In
+e. Fan-Out
+f. Depth
 
 B. train_model.py : 
-   Loads and preprocesses the dataset,
-   splits the data training and testing sets, 
-   trains the Decision Tree Regressor, 
-   evaluates the model performance using mutiple metrics, and 
-   saves the trained model as model.joblib.
+Loads and preprocesses the dataset,
+splits the data training and testing sets, 
+trains the Decision Tree Regressor, 
+evaluates the model performance using mutiple metrics, and 
+saves the trained model as model.joblib.
 
 C. predict.py : 
-   Loads the saved model and makes predictions on new input data. 
-   The input must be the feature of the order used during training.
+Loads the saved model and makes predictions on new input data. 
+The input must be the feature of the order used during training.
 
 D. model.joblib : The automatically generated serialzed trained model by train_model.py.
 
@@ -40,14 +40,12 @@ D. joblib
 
 **How to Run the Project**
 A. Train the Model
-  a. Ensure that the dataset.csv file is in the same directory as train_model.py.
-  b. On running the train_model.py 
-    ~The dataset will get loaded and preprocessed and will use the numberic columns (Gates, 
-     Fan-In and Fan-Out) as the prdictors.
-    ~The data will be split in training (80%) and testing (20%) sets.
-    ~The Decision tree Regressor will be trained and performance metrics (Mean Absolute Error, 
-     Mean Square Error, Root Mean Square Error and R2 Score) will be calculated.
-    ~And finally the model will be saved in model.joblib.
+a. Ensure that the dataset.csv file is in the same directory as train_model.py.
+b. On running the train_model.py 
+~The dataset will get loaded and preprocessed and will use the numberic columns (Gates, Fan-In and Fan-Out) as the prdictors.
+~The data will be split in training (80%) and testing (20%) sets.
+~The Decision tree Regressor will be trained and performance metrics (Mean Absolute Error, Mean Square Error, Root Mean Square Error and R2 Score) will be calculated.
+~And finally the model will be saved in model.joblib.
 
 B. Making Predictions using the predict.py script and make changes in the input as needed by you.
   
