@@ -7,6 +7,7 @@ QuickDepth is an AI algorithm designed to predict the combinational logic depth 
 Timing analysis is a crucial step in IP/SoC design and is often slow. If a design has time violations, it may require architectural updates which may cause further delays. The following project addresses this by predicting the combinational logic depth directly from behavioral RTL. This prediction allows designers for early detection of potential timing issues and streamlining the design process.
 
 **Project Blueprint**
+
 A. dataset.csv : It contains the dataset with the following columns :
   a. Module Name
   b. Signal Name
@@ -15,9 +16,16 @@ A. dataset.csv : It contains the dataset with the following columns :
   e. Fan-Out
   f. Depth
 
-B. train_model.py : Loads and preprocesses the dataset, splits the data training and testing       sets, trains the Decision Tree Regressor, evaluates the model performance using mutiple         metrics and saves the trained model as model.joblib.
+B. train_model.py : 
+   Loads and preprocesses the dataset,
+   splits the data training and testing sets, 
+   trains the Decision Tree Regressor, 
+   evaluates the model performance using mutiple metrics, and 
+   saves the trained model as model.joblib.
 
-C. predict.py : Loads the saved model and makes predictions on new input data. The input must      the feature order used during training.
+C. predict.py : 
+   Loads the saved model and makes predictions on new input data. 
+   The input must be the feature of the order used during training.
 
 D. model.joblib : The automatically generated serialzed trained model by train_model.py.
 
