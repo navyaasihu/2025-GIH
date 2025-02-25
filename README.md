@@ -41,6 +41,8 @@ It contains the dataset with the following columns :
 **E. `README.md`** 
 -It provides the overview of the project.
 
+-----
+
 **Environment Setup**
 
 The following project requires the latest version of the Python and requires the following libraries :
@@ -52,6 +54,8 @@ B. numpy
 C. scikit-learn
 
 D. joblib
+
+------
 
 **How to Run the Project**
 
