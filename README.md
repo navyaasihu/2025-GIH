@@ -8,36 +8,20 @@ Timing analysis is a crucial step in IP/SoC design and is often slow. If a desig
 
 **Project Blueprint**
 
-A. dataset.csv : It contains the dataset with the following columns :
-
+A. dataset.csv : 
+It contains the dataset with the following columns :
 a. Module Name
-
 b. Signal Name
-
 c. Gates
-
 d. Fan-In
-
 e. Fan-Out
-
 f. Depth
 
 
 B. train_model.py :
-
-Loads and preprocesses the dataset,
-
-splits the data training and testing sets, 
-
-trains the Decision Tree Regressor, 
-
-evaluates the model performance using mutiple metrics, and 
-
-saves the trained model as model.joblib.
-
+The following script loads and preprocesses the dataset, splits the data training and testing sets, trains the Decision Tree Regressor, evaluates the model performance using mutiple metrics, and saves the trained model as model.joblib.
 
 C. predict.py : 
-
 Loads the saved model and makes predictions on new input data. 
 The input must be the feature of the order used during training.
 
