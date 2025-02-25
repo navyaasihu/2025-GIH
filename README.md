@@ -9,11 +9,17 @@ Timing analysis is a crucial step in IP/SoC design and is often slow. If a desig
 **Project Blueprint**
 
 A. dataset.csv : It contains the dataset with the following columns :
+
 a. Module Name
+
 b. Signal Name
+
 c. Gates
+
 d. Fan-In
+
 e. Fan-Out
+
 f. Depth
 
 
