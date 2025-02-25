@@ -13,6 +13,7 @@ The following project addresses this by predicting the **combinational logic dep
 ---
 
 ##**Project Blueprint**
+
 ###**A. `dataset.csv`**
 It contains the dataset with the following columns :
 -**Module Name**
