@@ -56,11 +56,17 @@ D. joblib
 **How to Run the Project**
 
 A. Train the Model
+
 a. Ensure that the dataset.csv file is in the same directory as train_model.py.
+
 b. On running the train_model.py 
+
 ~The dataset will get loaded and preprocessed and will use the numberic columns (Gates,Fan-In and Fan-Out) as the prdictors.
+
 ~The data will be split in training (80%) and testing (20%) sets.
+
 ~The Decision tree Regressor will be trained and performance metrics (Mean Absolute Error,Mean Square Error, Root Mean Square Error and R2 Score) will be calculated.
+
 ~And finally the model will be saved in model.joblib.
 
 B. Making Predictions using the predict.py script and make changes in the input as needed by ####you.
