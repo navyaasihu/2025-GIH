@@ -61,9 +61,9 @@ D. joblib
 
 A. Train the Model
 
-a. Ensure that the dataset.csv file is in the same directory as train_model.py.
-
-b. On running the train_model.py 
+  a. Ensure that the dataset.csv file is in the same directory as train_model.py.
+  
+  b. On running the train_model.py 
 
 ~The dataset will get loaded and preprocessed and will use the numberic columns (Gates,Fan-In and Fan-Out) as the prdictors.
 
