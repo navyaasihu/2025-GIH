@@ -38,6 +38,9 @@ It contains the dataset with the following columns :
 **D. `model.joblib`**
 -The automatically generated serialzed trained model by train_model.py.
 
+**E. `tree.py`**
+-Just for the representation of the dataset in the form of Decision Tree.
+
 **E. `README.md`** 
 -It provides the overview of the project.
 
@@ -54,6 +57,10 @@ B. numpy
 C. scikit-learn
 
 D. joblib
+
+E. matplotlib
+
+F. pydotplus
 
 ------
 
