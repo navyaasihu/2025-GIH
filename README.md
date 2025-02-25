@@ -1,6 +1,6 @@
 # 2025-GIH
 
-##**Overview**
+**Overview**
 **QuickDepth** is an AI algorithm designed to predict the **combinational logic depth** of signals in RTL designs. Timing analysis is complex IP/SoCs can be very **time-consuming process** because it requires a **full synthesis run**. The following model speeds up this process by predicting the **logic depth using a Decision Tree Regressor**, enabling early detection of potential timing violations and reducing overall design delays.
 
 ---
