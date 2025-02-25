@@ -69,6 +69,6 @@ b. On running the train_model.py
 
 ~And finally the model will be saved in model.joblib.
 
-B. Making Predictions using the predict.py script and make changes in the input as needed by ####you.
+B. Making Predictions using the predict.py script and make changes in the input as needed by you.
   
   
