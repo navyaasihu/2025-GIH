@@ -7,7 +7,6 @@ QuickDepth is an AI algorithm designed to predict the combinational logic depth 
 Timing analysis is a crucial step in IP/SoC design and is often slow. If a design has time violations, it may require architectural updates which may cause further delays. The following project addresses this by predicting the combinational logic depth directly from behavioral RTL. This prediction allows designers for early detection of potential timing issues and streamlining the design process.
 
 **Project Blueprint**
-
 A. dataset.csv : It contains the dataset with the following columns :
 a. Module Name
 b. Signal Name
